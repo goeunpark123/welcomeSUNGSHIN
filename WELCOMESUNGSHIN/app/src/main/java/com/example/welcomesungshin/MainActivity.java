@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             case 2:
             case 3:
             case 4:
-                mainback.setImageResource(img[0]);
+                mainback.setBackgroundResource(img[0]);
                 break;
 
             case 5:
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             case 8:
             case 9:
             case 10:
-                mainback.setImageResource(img[1]);
+                mainback.setBackgroundResource(img[1]);
                 break;
 
             case 11:
@@ -51,19 +51,18 @@ public class MainActivity extends AppCompatActivity {
             case 14:
             case 15:
             case 16:
-                mainback.setImageResource(img[2]);
+                mainback.setBackgroundResource(img[2]);
                 break;
 
             case 17:
             case 18:
             case 19:
             case 20:
-                mainback.setImageResource(img[3]);
+                mainback.setBackgroundResource(img[3]);
                 break;
 
             default:
         }
-
     }
 
     public void clickedToSchool(View v) {
