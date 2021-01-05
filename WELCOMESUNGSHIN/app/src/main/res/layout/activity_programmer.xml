@@ -8,8 +8,8 @@
     android:background="@drawable/programmer">
 
     <ImageButton
-        android:layout_width="72dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@android:color/transparent"
         android:onClick="clickedToMain"
         android:scaleType="fitCenter"
