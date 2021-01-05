@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.welcomesungshin">
+    package="com.welcomsungshin.welcomesungshin">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -16,60 +16,60 @@
         android:roundIcon="@mipmap/ic_launcher_welcom_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".campus.Shortcut"></activity>
-        <activity android:name=".campus.MuToSung05Bridge" />
-        <activity android:name=".Recommend" />
-        <activity android:name=".Setting" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Shortcut"></activity>
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.MuToSung05Bridge" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Recommend" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Setting" />
 
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name=".HardFail" />
-        <activity android:name=".HardSuccess" />
-        <activity android:name=".NormalFail" />
-        <activity android:name=".NormalSuccess" />
-        <activity android:name=".Programmer" />
-        <activity android:name=".Explain" />
-        <activity android:name=".campus.Hakkwan04CafeIn" />
-        <activity android:name=".campus.Sujung10StuRes" />
-        <activity android:name=".campus.Sujung10Ele_C" />
-        <activity android:name=".campus.Sujung05Study_A" />
-        <activity android:name=".campus.Sujung05Ele_A" />
-        <activity android:name=".campus.Sujung04Ele_C" />
-        <activity android:name=".campus.Sujung02JobCafe" />
-        <activity android:name=".campus.Sujung02Ubi" />
-        <activity android:name=".campus.Sujung02Ele" />
-        <activity android:name=".campus.Sujung01SleepingRoom" />
-        <activity android:name=".campus.Sujung01JobCenter" />
-        <activity android:name=".campus.Sujung01Bluepot" />
-        <activity android:name=".campus.Sujung01Nancho" />
-        <activity android:name=".campus.Sujung01Print" />
-        <activity android:name=".campus.Sujung01" />
-        <activity android:name=".campus.Sungshin05Suharu" />
-        <activity android:name=".campus.Sungshin05Ele" />
-        <activity android:name=".campus.SungToSuBridge" />
-        <activity android:name=".campus.Sungshin04Ele" />
-        <activity android:name=".campus.Sungshin03Ele" />
-        <activity android:name=".campus.Sungshin01Ele" />
-        <activity android:name=".campus.Sungshin02Lit" />
-        <activity android:name=".campus.Sungshin02Ele" />
-        <activity android:name=".campus.Sungshin08Ele" />
-        <activity android:name=".campus.Music04ToSungshin" />
-        <activity android:name=".campus.Music04Ele" />
-        <activity android:name=".campus.CloudBridgeFront" />
-        <activity android:name=".campus.Nan07CloudBridge" />
-        <activity android:name=".campus.Nan07Ele" />
-        <activity android:name=".campus.NanParkToArt1" />
-        <activity android:name=".campus.NanPark" />
-        <activity android:name=".campus.NanToSungshin" />
-        <activity android:name=".campus.NanStuRes" />
-        <activity android:name=".campus.Nan03Ele" />
-        <activity android:name=".campus.Nan01Ele" />
-        <activity android:name=".campus.Hakkwan04Cafe" />
-        <activity android:name=".campus.Hakkwan02CafeIn" />
-        <activity android:name=".campus.Hakkwan02Cafe" />
-        <activity android:name=".campus.Hakkwan01Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.HardFail" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.HardSuccess" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.NormalFail" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.NormalSuccess" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Programmer" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Explain" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Hakkwan04CafeIn" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung10StuRes" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung10Ele_C" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung05Study_A" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung05Ele_A" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung04Ele_C" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung02JobCafe" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung02Ubi" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung02Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung01SleepingRoom" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung01JobCenter" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung01Bluepot" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung01Nancho" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung01Print" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sujung01" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin05Suharu" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin05Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.SungToSuBridge" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin04Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin03Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin01Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin02Lit" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin02Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshin08Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Music04ToSungshin" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Music04Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.CloudBridgeFront" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Nan07CloudBridge" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Nan07Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.NanParkToArt1" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.NanPark" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.NanToSungshin" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.NanStuRes" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Nan03Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Nan01Ele" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Hakkwan04Cafe" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Hakkwan02CafeIn" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Hakkwan02Cafe" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Hakkwan01Ele" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -82,22 +82,22 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAMNh-yxWqKt7Yile3UeL5aHMFbROMCNIM" />
 
-        <activity android:name=".Hard" />
-        <activity android:name=".Normal" />
-        <activity android:name=".Easy" />
-        <activity android:name=".GameLevel" />
-        <activity android:name=".Success" />
-        <activity android:name=".HangmanExplain" />
-        <activity android:name=".Fail" />
-        <activity android:name=".HangMainActivity" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Hard" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Normal" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Easy" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.GameLevel" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Success" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.HangmanExplain" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Fail" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.HangMainActivity" />
         <activity
-            android:name=".MapsActivity"
+            android:name="com.welcomsungshin.welcomesungshin.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".Baseball" />
-        <activity android:name=".HelpActivity" />
-        <activity android:name=".GameActivity" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.Baseball" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.HelpActivity" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.GameActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.welcomsungshin.welcomesungshin.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -105,17 +105,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".campus.Hakkwan" />
-        <activity android:name=".campus.Johyungkwan" />
-        <activity android:name=".campus.Emakkwan" />
-        <activity android:name=".campus.Nanhyangkwan" />
-        <activity android:name=".campus.sujungkwan" />
-        <activity android:name=".campus.Sungshinkwan" />
-        <activity android:name=".FortuneCookie" />
-        <activity android:name=".EntertainmentActivity" />
-        <activity android:name=".NoticeActivity" />
-        <activity android:name=".FoodMapActivity" />
-        <activity android:name=".campus.SchoolMapActivity" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Hakkwan" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Johyungkwan" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Emakkwan" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Nanhyangkwan" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.sujungkwan" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.Sungshinkwan" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.FortuneCookie" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.EntertainmentActivity" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.NoticeActivity" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.FoodMapActivity" />
+        <activity android:name="com.welcomsungshin.welcomesungshin.campus.SchoolMapActivity" />
     </application>
 
 </manifest>
