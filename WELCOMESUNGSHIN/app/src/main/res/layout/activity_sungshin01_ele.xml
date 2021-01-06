@@ -4,126 +4,108 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".campus.Sungshin01Ele"
-    android:background="#5D658E">
+    android:background="#5D658E"
+    tools:context=".campus.Sungshin01Ele">
 
     <LinearLayout
-        android:layout_width="771dp"
-        android:layout_height="758dp"
+        android:layout_width="530dp"
+        android:layout_height="750dp"
         android:background="@drawable/sung01ele"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.025"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017">
-
-    </LinearLayout>
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <ImageView
-        android:layout_width="774dp"
-        android:layout_height="261dp"
+        android:layout_width="410dp"
+        android:layout_height="210dp"
         android:background="@drawable/explain"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="[성신관 1층]"
         android:textColor="#4700C4"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:typeface="monospace"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821" />
+        app:layout_constraintVertical_bias="0.805"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="왼쪽에 학생지원팀, 교양교육팀, 장학팀 등이 있다."
         android:textColor="#000000"
-        android:textSize="30dp"
+        android:textSize="21dp"
         android:typeface="monospace"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878" />
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintVertical_bias="0.89"/>
 
     <ImageButton
         android:id="@+id/school_map"
-        android:layout_width="138dp"
-        android:layout_height="100dp"
-        android:layout_gravity="bottom"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
         android:onClick="clickedToSchoolMap"
-        android:scaleType="fitCenter"
         android:src="@drawable/home"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.975"/>
 
     <ImageButton
         android:id="@+id/up1"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_gravity="bottom"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
         android:onClick="clickedToSungshin02Ele"
-        android:scaleType="fitCenter"
         android:src="@drawable/up"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.031" />
+        app:layout_constraintVertical_bias="0.02"/>
 
     <ImageButton
         android:id="@+id/right1"
-        android:layout_width="50dp"
-        android:layout_height="150dp"
-        android:layout_gravity="bottom"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
         android:onClick="clickedToSujung01Ele"
-        android:scaleType="fitCenter"
         android:src="@drawable/right"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintVertical_bias="0.34"/>
 
     <ImageButton
         android:id="@+id/down1"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_gravity="bottom"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
         android:onClick="clickedToSungshinkwan"
-        android:scaleType="fitCenter"
         android:src="@drawable/down"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.706" />
+        app:layout_constraintVertical_bias="0.67"/>
 
 </android.support.constraint.ConstraintLayout>
