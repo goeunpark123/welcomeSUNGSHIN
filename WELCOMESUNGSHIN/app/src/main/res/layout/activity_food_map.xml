@@ -16,19 +16,19 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerview"
-        android:layout_width="606dp"
-        android:layout_height="572dp"
+        android:layout_width="340dp"
+        android:layout_height="460dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.438" />
-
+        app:layout_constraintVertical_bias="0.523" />
 
     <ImageButton
         android:id="@+id/food"
-        android:layout_width="100dp"
-        android:layout_height="96dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginTop="100dp"
         android:background="@android:color/transparent"
         android:onClick="onBackButtonClicked"
@@ -43,8 +43,8 @@
 
     <ImageButton
         android:id="@+id/foodinfo01"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@android:color/transparent"
         android:onClick="clickedToReco"
         android:scaleType="fitCenter"
@@ -57,17 +57,17 @@
 
     <ImageButton
         android:id="@+id/Gmap"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@android:color/transparent"
         android:onClick="clickedToGmap"
         android:scaleType="fitCenter"
         android:src="@drawable/walking"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintHorizontal_bias="0.876"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.965" />
+        app:layout_constraintVertical_bias="0.962" />
 
 </android.support.constraint.ConstraintLayout>
