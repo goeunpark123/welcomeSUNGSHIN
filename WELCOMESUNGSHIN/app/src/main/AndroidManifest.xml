@@ -80,7 +80,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAMNh-yxWqKt7Yile3UeL5aHMFbROMCNIM" />
+            android:value="AIzaSyBB0U9uZhO9kN60TkrQYmzRHb2VnDcDmKM" />
 
         <activity android:name="com.welcomsungshin.welcomesungshin.Hard" />
         <activity android:name="com.welcomsungshin.welcomesungshin.Normal" />
