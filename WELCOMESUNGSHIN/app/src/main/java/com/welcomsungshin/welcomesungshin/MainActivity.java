@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
     public void clickedToCat3(View v) {
         new AlertDialog.Builder(MainActivity.this)
                 .setTitle("냥냥냥")
-                .setMessage("안녕 웰컴~~~성신!")
+                .setMessage("성아 최고!")
                 .setIcon(R.drawable.cat1)
                 .setPositiveButton("안녕~", null)
                 .show();
