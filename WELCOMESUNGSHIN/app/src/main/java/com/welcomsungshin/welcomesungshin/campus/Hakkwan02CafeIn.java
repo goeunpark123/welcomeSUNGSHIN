@@ -16,13 +16,13 @@ public class Hakkwan02CafeIn extends AppCompatActivity {
         getWindow().setWindowAnimations(0);
     }
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToHakkwan02Cafe(View v) {
         Intent intent = new Intent(this, Hakkwan02Cafe.class);
         startActivity(intent);
+        finish();
     }
 }

@@ -17,33 +17,39 @@ public class Sujung01 extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(this, SchoolMapActivity.class);
+        //startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung02Ele(View v) {
         Intent intent = new Intent(this, Sujung02Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung01JobCenter(View v) {
         Intent intent = new Intent(this, Sujung01JobCenter.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung01BluePot(View v) {
         Intent intent = new Intent(this, Sujung01Bluepot.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSujungkwan(View v) {
         Intent intent = new Intent(this, sujungkwan.class);
         startActivity(intent);
+        finish();
     }
 
 
     public void clickedToSujung01Nancho(View v) {
         Intent intent = new Intent(this, Sujung01Nancho.class);
         startActivity(intent);
+        finish();
     }
 }

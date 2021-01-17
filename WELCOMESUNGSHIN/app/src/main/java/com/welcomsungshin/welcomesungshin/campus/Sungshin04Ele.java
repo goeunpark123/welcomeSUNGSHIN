@@ -17,22 +17,24 @@ public class Sungshin04Ele extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSungshin05Ele(View v) {
         Intent intent = new Intent(this, Sungshin05Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSungToSuBridge(View v) {
         Intent intent = new Intent(this, SungToSuBridge.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSungshin03Ele(View v) {
         Intent intent = new Intent(this,Sungshin03Ele.class);
         startActivity(intent);
+        finish();
     }
 }

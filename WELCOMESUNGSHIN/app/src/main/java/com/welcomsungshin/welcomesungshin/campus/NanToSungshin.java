@@ -17,18 +17,19 @@ public class NanToSungshin extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToNanPark(View v) {
         Intent intent = new Intent(this, NanPark.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSungshin(View v) {
         Intent intent = new Intent(this, Sungshinkwan.class);
         startActivity(intent);
+        finish();
     }
 }

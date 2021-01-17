@@ -17,18 +17,19 @@ public class Nan07CloudBridge extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToCloudBridgeFront(View v) {
         Intent intent = new Intent(this, CloudBridgeFront.class);
         startActivity(intent);
+        finish();
     }
 
 
     public void clickedToNan07Ele(View v) {
         Intent intent = new Intent(this, Nan07Ele.class);
         startActivity(intent);
+        finish();
     }
 }

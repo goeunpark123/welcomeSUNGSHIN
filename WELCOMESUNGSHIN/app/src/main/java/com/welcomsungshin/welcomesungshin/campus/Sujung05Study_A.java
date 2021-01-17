@@ -17,12 +17,12 @@ public class Sujung05Study_A extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung05Ele_A(View v) {
         Intent intent = new Intent(this, Sujung05Ele_A.class);
         startActivity(intent);
+        finish();
     }
 }

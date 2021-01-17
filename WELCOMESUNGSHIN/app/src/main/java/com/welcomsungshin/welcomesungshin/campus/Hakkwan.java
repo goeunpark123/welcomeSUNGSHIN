@@ -23,12 +23,12 @@ public class Hakkwan extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToHakkwan01Ele(View v) {
         Intent intent = new Intent(this, Hakkwan01Ele.class);
         startActivity(intent);
+        finish();
     }
 }

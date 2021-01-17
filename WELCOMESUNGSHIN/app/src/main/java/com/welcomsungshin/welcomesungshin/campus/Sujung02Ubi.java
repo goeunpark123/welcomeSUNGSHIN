@@ -16,13 +16,13 @@ public class Sujung02Ubi extends AppCompatActivity {
         getWindow().setWindowAnimations(0);
     }
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToSujung02Ele(View v) {
         Intent intent = new Intent(this, Sujung02Ele.class);
         startActivity(intent);
+        finish();
     }
 }

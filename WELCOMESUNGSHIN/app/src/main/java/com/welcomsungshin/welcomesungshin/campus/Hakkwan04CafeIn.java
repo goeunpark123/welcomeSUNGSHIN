@@ -17,13 +17,13 @@ public class Hakkwan04CafeIn extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToHakkwan04Cafe(View v) {
         Intent intent = new Intent(this, Hakkwan04Cafe.class);
         startActivity(intent);
+        finish();
     }
 }

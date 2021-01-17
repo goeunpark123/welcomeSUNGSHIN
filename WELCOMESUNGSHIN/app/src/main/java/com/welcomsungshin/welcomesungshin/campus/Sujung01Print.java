@@ -17,13 +17,13 @@ public class Sujung01Print extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung01BluePot(View v) {
         Intent intent = new Intent(this, Sujung01Bluepot.class);
         startActivity(intent);
+        finish();
     }
 
 }
