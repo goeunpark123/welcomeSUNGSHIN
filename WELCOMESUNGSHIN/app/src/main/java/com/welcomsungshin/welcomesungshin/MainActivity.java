@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
     public void clickedToCat2(View v) {
         new AlertDialog.Builder(MainActivity.this)
                 .setTitle("냥냥냥")
-                .setMessage("웰컴 성신 최고")
+                .setMessage("브랜치생성왜안돼")
                 .setIcon(R.drawable.cat2)
                 .setPositiveButton("최고!", null)
                 .show();
