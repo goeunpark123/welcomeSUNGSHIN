@@ -25,11 +25,6 @@ public class Success extends AppCompatActivity {
         Intent intent = new Intent(this, GameLevel.class);
         startActivity(intent);
         mp.stop();
-    }
-
-    public void clickedToMain(View v){
-        Intent intent = new Intent(this, HangMainActivity.class);
-        startActivity(intent);
-        mp.stop();
+        finish();
     }
 }

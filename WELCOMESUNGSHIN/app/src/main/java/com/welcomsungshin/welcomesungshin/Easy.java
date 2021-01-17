@@ -616,4 +616,8 @@ public class Easy extends AppCompatActivity {
 
         }
     }
+
+    public void onBackPressed() {
+        finish();
+    }
 }

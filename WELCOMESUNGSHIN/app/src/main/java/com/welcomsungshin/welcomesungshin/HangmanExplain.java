@@ -17,11 +17,13 @@ public class HangmanExplain extends AppCompatActivity {
     public void clickedToHangman(View v){
         Intent intent = new Intent(this, HangMainActivity.class);
         startActivity(intent);
+
     }
 
     public void clickedToHangmanLevel(View v) {
         Intent intent = new Intent(this, GameLevel.class);
         startActivity(intent);
+        finish();
     }
 
     }

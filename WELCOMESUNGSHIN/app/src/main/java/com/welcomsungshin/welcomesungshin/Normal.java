@@ -781,5 +781,9 @@ public class Normal extends AppCompatActivity {
 
         }
     }
+
+    public void onBackPressed() {
+        finish();
+    }
 }
 

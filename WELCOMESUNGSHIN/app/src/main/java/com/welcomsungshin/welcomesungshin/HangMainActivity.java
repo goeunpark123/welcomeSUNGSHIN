@@ -35,8 +35,6 @@ public class HangMainActivity extends AppCompatActivity {
 
     public void clickedToEnter(View v){
         mp.stop();
-        Intent intent = new Intent(this, EntertainmentActivity.class);
-        startActivity(intent);
         finish();
     }
 

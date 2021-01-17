@@ -12,6 +12,7 @@ public class GameLevel extends AppCompatActivity {
 
 
     public static Activity GameLevel;
+    //hangman game
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,15 +24,18 @@ public class GameLevel extends AppCompatActivity {
     public void clickedToEasy(View v){
         Intent intent = new Intent(this, Easy.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNormal(View v){
         Intent intent = new Intent(this, Normal.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToHard(View v){
         Intent intent = new Intent(this, Hard.class);
         startActivity(intent);
+        finish();
     }
 }
