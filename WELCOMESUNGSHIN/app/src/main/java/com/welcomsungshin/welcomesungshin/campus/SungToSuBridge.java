@@ -17,18 +17,19 @@ public class SungToSuBridge extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung04Ele_C(View v) {
         Intent intent = new Intent(this, Sujung04Ele_C.class);
         startActivity(intent);
+        finish();
     }
 
 
     public void clickedToSungshin04Ele(View v) {
         Intent intent = new Intent(this,Sungshin04Ele.class);
         startActivity(intent);
+        finish();
     }
 }

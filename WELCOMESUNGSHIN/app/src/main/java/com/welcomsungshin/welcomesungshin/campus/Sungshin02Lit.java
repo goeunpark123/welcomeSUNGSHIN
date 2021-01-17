@@ -17,14 +17,14 @@ public class Sungshin02Lit extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToSungshin02Ele(View v) {
         Intent intent = new Intent(this,Sungshin02Ele.class);
         startActivity(intent);
+        finish();
     }
 
 }

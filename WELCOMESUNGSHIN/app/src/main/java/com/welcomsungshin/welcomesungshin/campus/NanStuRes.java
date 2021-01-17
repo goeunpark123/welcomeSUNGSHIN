@@ -17,13 +17,13 @@ public class NanStuRes extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToNan03Ele(View v) {
         Intent intent = new Intent(this, Nan03Ele.class);
         startActivity(intent);
+        finish();
     }
 }

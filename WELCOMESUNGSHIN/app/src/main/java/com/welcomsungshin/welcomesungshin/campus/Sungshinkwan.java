@@ -17,23 +17,25 @@ public class Sungshinkwan extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSungshin01Ele(View v) {
         Intent intent = new Intent(this, Sungshin01Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSujungkwan(View v) {
         Intent intent = new Intent(this, sujungkwan.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNanToSungshin(View v) {
         Intent intent = new Intent(this, NanToSungshin.class);
         startActivity(intent);
+        finish();
     }
 
 

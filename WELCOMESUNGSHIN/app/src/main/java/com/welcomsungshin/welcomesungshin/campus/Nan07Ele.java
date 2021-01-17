@@ -17,19 +17,20 @@ public class Nan07Ele extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToNan03Ele(View v) {
         Intent intent = new Intent(this, Nan03Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNan07CloudBridge(View v) {
         Intent intent = new Intent(this, Nan07CloudBridge.class);
         startActivity(intent);
+        finish();
     }
 
 }

@@ -17,18 +17,19 @@ public class Sujung10StuRes extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung10StuRes(View v) {
         Intent intent = new Intent(this, Sujung10StuRes.class);
         startActivity(intent);
+        finish();
     }
 
 
     public void clickedToSujung10Ele_C(View v) {
         Intent intent = new Intent(this, Sujung10Ele_C.class);
         startActivity(intent);
+        finish();
     }
 }

@@ -17,22 +17,24 @@ public class Emakkwan extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToCloudBridgeFront(View v) {
         Intent intent = new Intent(this, CloudBridgeFront.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToMusic04Ele(View v) {
         Intent intent = new Intent(this, Music04Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSung05Bridge(View v) {
         Intent intent = new Intent(this, MuToSung05Bridge.class);
         startActivity(intent);
+        finish();
     }
 }

@@ -18,13 +18,13 @@ public class SchoolMapActivity extends AppCompatActivity {
     }
 
     public void clickedToMain(View v) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSungshinkwan(View v) {
         Intent intent = new Intent(this, Sungshinkwan.class);
         startActivity(intent);
+
     }
 
     public void clickedToSujungkwan(View v) {

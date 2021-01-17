@@ -17,23 +17,25 @@ public class Sujung04Ele_C extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung05Ele_A(View v) {
         Intent intent = new Intent(this, Sujung05Ele_A.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSungToSuBridge(View v) {
         Intent intent = new Intent(this, SungToSuBridge.class);
         startActivity(intent);
+        finish();
     }
 
 
     public void clickedToSujung02Ele(View v) {
         Intent intent = new Intent(this, Sujung02Ele.class);
         startActivity(intent);
+        finish();
     }
 }

@@ -17,23 +17,25 @@ public class NanPark extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 
     public void clickedToNan03Ele(View v) {
         Intent intent = new Intent(this, Nan03Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNanParkToArt1(View v) {
         Intent intent = new Intent(this, NanParkToArt1.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNanToSungshin(View v) {
         Intent intent = new Intent(this, NanToSungshin.class);
         startActivity(intent);
+        finish();
     }
 }
