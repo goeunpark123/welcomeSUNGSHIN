@@ -6,24 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/foodback"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    android:paddingBottom="16dp"
+    android:padding="30dp"
     android:orientation="vertical"
     tools:context=".FoodMapActivity">
 
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerview"
-        android:layout_width="340dp"
-        android:layout_height="460dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toTopOf="@id/food"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.8"/>
 
     <ImageButton
         android:id="@+id/food"
@@ -35,11 +32,7 @@
         android:scaleType="fitCenter"
         android:src="@drawable/home"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
     <ImageButton
         android:id="@+id/foodinfo01"
@@ -51,9 +44,7 @@
         android:src="@drawable/reco"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963" />
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <ImageButton
         android:id="@+id/Gmap"
@@ -64,10 +55,6 @@
         android:scaleType="fitCenter"
         android:src="@drawable/walking"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.962" />
+        app:layout_constraintRight_toRightOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>

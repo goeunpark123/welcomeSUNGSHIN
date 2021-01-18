@@ -15,67 +15,67 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
-        android:layout_width="410dp"
-        android:layout_height="210dp"
+        android:id="@id/e"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
         android:background="@drawable/explain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
     <TextView
+        android:id="@+id/place"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="[학생회관 1층]"
         android:textColor="#4700C4"
-        android:textSize="30dp"
+        android:textSize="28dp"
         android:typeface="monospace"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.805"/>
-
+        app:layout_constraintVertical_bias="0.8"/>
 
     <TextView
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
         android:text="왼쪽에는 학생회관 사물함,\n오른쪽에는 소극장이 있다."
         android:textColor="#000000"
-        android:textSize="21dp"
+        android:textSize="18dp"
         android:typeface="monospace"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/place"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.89"/>
+        app:layout_constraintVertical_bias="0.87"/>
 
     <ImageButton
         android:id="@+id/school_map"
         android:onClick="clickedToSchoolMap"
         android:src="@drawable/home"
         android:layout_width="64dp"
-        android:layout_height="48dp"
+        android:layout_height="45dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.975"/>
+        android:layout_marginBottom="15dp"/>
 
     <ImageButton
         android:id="@+id/up1"
         android:onClick="clickedToHakkwan01Ele"
         android:src="@drawable/left"
-        android:layout_width="30dp"
-        android:layout_height="100dp"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/e"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintVertical_bias="0.355"/>
+        app:layout_constraintHorizontal_bias="0.03"/>
 
 </android.support.constraint.ConstraintLayout>

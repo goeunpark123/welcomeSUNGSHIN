@@ -26,16 +26,16 @@ public class FoodMapActivity extends AppCompatActivity {
         data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "한식"));
         data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "정키친"));
         data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "아리랑"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "요리잔치"));
+        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "우리할매떡볶이"));
         data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "조부장 성신김밥"));
 
         ExpandableListAdapter.Item western = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "양식");
         western.invisibleChildren = new ArrayList<>();
-        western.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "미오지오"));
+        western.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "쵸이양식"));
         western.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "쓰리로보스"));
         western.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "홀슈"));
         western.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "레지아노"));
-        western.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "버거 바이블"));
+        western.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "치클스"));
         data.add(western);
 
         ExpandableListAdapter.Item chinese = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "중식");
@@ -46,7 +46,7 @@ public class FoodMapActivity extends AppCompatActivity {
         ExpandableListAdapter.Item etc = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "기타");
         etc.invisibleChildren = new ArrayList<>();
         etc.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "투고 샐러드"));
-        etc.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "안녕 베트남"));
+        etc.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "쎄오쎄오"));
         data.add(etc);
 
         ExpandableListAdapter.Item japanese = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "일식");
