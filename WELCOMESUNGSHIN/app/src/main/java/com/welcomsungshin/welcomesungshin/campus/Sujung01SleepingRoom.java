@@ -17,12 +17,12 @@ public class Sujung01SleepingRoom extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung01Ele(View v) {
         Intent intent = new Intent(this, Sujung01.class);
         startActivity(intent);
+        finish();
     }
 }

@@ -17,23 +17,25 @@ public class Hakkwan04Cafe extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToHakkwan04CafeIn(View v) {
         Intent intent = new Intent(this, Hakkwan04CafeIn.class);
         startActivity(intent);
+        finish();
     }
 
 
     public void clickedToNanhyangkwan(View v) {
         Intent intent = new Intent(this, Nanhyangkwan.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToHakkwan02Cafe(View v) {
         Intent intent = new Intent(this, Hakkwan02Cafe.class);
         startActivity(intent);
+        finish();
     }
 }

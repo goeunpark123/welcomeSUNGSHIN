@@ -952,6 +952,12 @@ public class Hard extends AppCompatActivity {
 
 
         }
+
+
+    }
+
+    public void onBackPressed() {
+        finish();
     }
 }
 

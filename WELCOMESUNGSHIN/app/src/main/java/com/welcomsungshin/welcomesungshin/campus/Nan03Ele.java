@@ -17,27 +17,30 @@ public class Nan03Ele extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToNanStuRes(View v) {
         Intent intent = new Intent(this, NanStuRes.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNan01Ele(View v) {
         Intent intent = new Intent(this, Nan01Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNan07Ele(View v) {
         Intent intent = new Intent(this, Nan07Ele.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToNanPark(View v) {
         Intent intent = new Intent(this, NanPark.class);
         startActivity(intent);
+        finish();
     }
 }

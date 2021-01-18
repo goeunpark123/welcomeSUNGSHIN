@@ -168,7 +168,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng po = new LatLng(mLatitude , mLongitude);
         LatLng street = new LatLng(37.591437, 127.019302);
         LatLng store[] = new LatLng[20];
-        store[0] = new LatLng(37.591545, 127.019656);
+        store[0] = new LatLng(37.592244, 127.018020);
         store[1] = new LatLng(37.591527, 127.020057);
         store[2] = new LatLng(37.591004, 127.019198 );
         store[3] = new LatLng(37.591817, 127.020422 );
@@ -181,7 +181,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         store[10] = new LatLng(37.5907506, 127.0200751);
         store[11] = new LatLng(37.592640, 127.017313);
         store[12] = new LatLng(37.5921184, 127.0172287);
-        store[13] = new LatLng(37.5901563, 127.0181659);
+        store[13] = new LatLng(37.5909745, 127.0189212);
         store[14] = new LatLng(37.5905499, 127.0199578);
         store[15] = new LatLng(37.5906743, 127.0203041);
         store[16] = new LatLng(37.5908601, 127.0192629);
@@ -189,8 +189,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Marker My = mMap.addMarker(new MarkerOptions().position(po));
 
         Marker Miozio = mMap.addMarker(new MarkerOptions().position(store[0])
-                .title("미오지오")
-                .snippet("\"새우 5개 들어있는데 파스타랑 먹기에 딱 적당하고 소스도 크림 덕후들은 환장할 맛임.\"")
+                .title("쵸이양식")
+                .snippet("\"청량한 해를 품은 파스타와 치즈 가루와 연유가 단짠 조화를 이루는 포테이토 피자가 대표 메뉴.\"")
                 .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("miozio", 130, 130))));
         Marker India = mMap.addMarker(new MarkerOptions().position(store[1])
                 .title("인도이웃")
@@ -210,7 +210,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .snippet("\"닭다리가 예술. 치킨 먹다가 퍽퍽할 때쯤 샐러드 먹으면 치킨 무 필요없음.\"")
                 .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("threelobos", 130, 130))));
         Marker Hiviet = mMap.addMarker(new MarkerOptions().position(store[5])
-                .title("안녕 베트남")
+                .title("쎄오쎄오")
                 .snippet("\"분짜의 쌀국수가 보들보들. 고기양념은 달달하고 촉촉하고 최고다.\"")
                 .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("seoseo", 130, 130))));
         Marker Greek = mMap.addMarker(new MarkerOptions().position(store[6])
@@ -242,8 +242,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .snippet("애정은 사랑입니다. 마라를 사랑하는 자, 애정을 경험해보지 않고 마라를 좋아한다 말하지 마라.")
                 .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("mara", 110, 110))));
         Marker Bugerbible = mMap.addMarker(new MarkerOptions().position(store[13])
-                .title("버거 바이블")
-                .snippet("수제버거지만 자극적이지 않은 맛. 성신에서 느끼는 이태원.")
+                .title("치클스")
+                .snippet("부드러운 빵과 겉은 바삭하고 속은 촉촉한 패티의 조화")
                 .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("burger", 110, 110))));
         Marker Modern = mMap.addMarker(new MarkerOptions().position(store[14])
                 .title("모던 바이츠")
@@ -274,11 +274,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         return false;
     }
 
-
-
     public int i;
-    public final CharSequence[] items = { "미오지오", "인도이웃", "윤휘식당", "투고샐러드", "쓰리로보스", "안녕베트남", "그릭데이", "아리랑", "본크레페",
-            "멘케이브", "레지아노", "조부장성신김밥",  "애정마라샹궈", "버거바이블", "모던바이츠", "슬로우브레드파파", "메종드루즈"};
+    public final CharSequence[] items = { "쵸이양식", "인도이웃", "윤휘식당", "투고샐러드", "쓰리로보스", "쎄오쎄오", "그릭데이", "아리랑", "본크레페",
+            "멘케이브", "레지아노", "조부장성신김밥",  "애정마라샹궈", "치클스", "모던바이츠", "슬로우브레드파파", "메종드루즈"};
     public void Dijkstra(View v) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setTitle("어디로 가고싶나요?");

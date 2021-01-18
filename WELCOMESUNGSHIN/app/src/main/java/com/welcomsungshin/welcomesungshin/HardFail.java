@@ -25,5 +25,6 @@ public class HardFail extends AppCompatActivity {
         Intent intent = new Intent(this, GameLevel.class);
         startActivity(intent);
         mp.stop();
+        finish();
     }
 }

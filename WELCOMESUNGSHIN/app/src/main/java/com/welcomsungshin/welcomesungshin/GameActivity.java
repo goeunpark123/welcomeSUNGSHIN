@@ -1,5 +1,6 @@
 package com.welcomsungshin.welcomesungshin;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -73,6 +74,9 @@ public class GameActivity extends AppCompatActivity {
                     ranNum = generateRanNum(context);        // 재시작
                     ansArrayList.clear();
                     ansAdapter.notifyDataSetChanged();
+                    Intent intent = new Intent(getApplicationContext(),GameActivity.class);
+                    startActivityForResult(intent,1002);
+                    finish();
                 }
             };
             Builder builder = new Builder(this);

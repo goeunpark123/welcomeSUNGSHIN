@@ -25,17 +25,18 @@ public class Hakkwan01Ele extends AppCompatActivity {
     }
 
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToHakkwan02Cafe(View v) {
         Intent intent = new Intent(this, Hakkwan02Cafe.class);
         startActivity(intent);
+        finish();
     }
     public void clickedToHakkwan(View v) {
         Intent intent = new Intent(this, Hakkwan.class);
         startActivity(intent);
+        finish();
     }
 
 }

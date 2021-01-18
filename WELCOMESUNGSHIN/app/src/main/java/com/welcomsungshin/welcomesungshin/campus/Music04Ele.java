@@ -16,17 +16,18 @@ public class Music04Ele extends AppCompatActivity {
         getWindow().setWindowAnimations(0);
     }
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToMusic04ToSungshin(View v) {
         Intent intent = new Intent(this, Music04ToSungshin.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToEmakkwan (View v) {
         Intent intent = new Intent(this, Emakkwan.class);
         startActivity(intent);
+        finish();
     }
 }

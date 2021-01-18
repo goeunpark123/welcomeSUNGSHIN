@@ -16,17 +16,18 @@ public class MuToSung05Bridge extends AppCompatActivity {
         getWindow().setWindowAnimations(0);
     }
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToMusic(View v) {
         Intent intent = new Intent(this, Emakkwan.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSung05(View v) {
         Intent intent = new Intent(this, Sungshin05Ele.class);
         startActivity(intent);
+        finish();
     }
 }

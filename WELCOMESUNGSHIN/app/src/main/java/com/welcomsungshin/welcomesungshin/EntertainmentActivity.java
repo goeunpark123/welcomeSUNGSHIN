@@ -14,8 +14,7 @@ public class EntertainmentActivity extends AppCompatActivity {
     }
 
     public void clickedToMain(View v){
-        Intent intent = new Intent(this,MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToHangmanActivity(View v) {
@@ -31,5 +30,9 @@ public class EntertainmentActivity extends AppCompatActivity {
     public void clickedToFortuneCookie(View v) {
         Intent intent = new Intent(this,FortuneCookie.class);
         startActivity(intent);
+    }
+
+    public void onBackPressed() {
+        finish();
     }
 }

@@ -16,17 +16,18 @@ public class Sujung01Nancho extends AppCompatActivity {
         getWindow().setWindowAnimations(0);
     }
     public void clickedToSchoolMap(View v) {
-        Intent intent = new Intent(this, SchoolMapActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung01Ele(View v) {
         Intent intent = new Intent(this, Sujung01.class);
         startActivity(intent);
+        finish();
     }
 
     public void clickedToSujung01SleepingRoom(View v) {
         Intent intent = new Intent(this, Sujung01SleepingRoom.class);
         startActivity(intent);
+        finish();
     }
 }
