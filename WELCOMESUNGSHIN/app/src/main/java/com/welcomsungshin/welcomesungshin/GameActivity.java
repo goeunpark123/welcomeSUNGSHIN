@@ -29,7 +29,7 @@ public class GameActivity extends AppCompatActivity {
     //랜덤값
     private int ranNum;
     //카운트
-    private int cnt = 1;
+    private int cnt = 0;
     //List 보여주는 어댑터
     private AnsAdapter ansAdapter;
     //내가 작성한 값들 저장 객체 빈
@@ -119,6 +119,9 @@ public class GameActivity extends AppCompatActivity {
                             case 1:
                             case 2:
                             case 3:
+
+
+                            case 4:
                                 //mp.stop();
 
 
@@ -143,7 +146,6 @@ public class GameActivity extends AppCompatActivity {
                                 isCorrect = !isCorrect;
                                 break;
 
-                            case 4:
                             case 5:
 
                                 success = MediaPlayer.create(this, R.raw.successb);
