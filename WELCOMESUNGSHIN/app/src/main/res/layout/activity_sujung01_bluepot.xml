@@ -15,8 +15,9 @@
         app:layout_constraintLeft_toLeftOf="parent"/>
 
     <ImageView
-        android:layout_width="410dp"
-        android:layout_height="210dp"
+        android:id="@id/e"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
         android:background="@drawable/explain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,61 +28,58 @@
         android:layout_height="wrap_content"
         android:text="[수정관 블루팟]"
         android:textColor="#4700C4"
-        android:textSize="30dp"
+        android:textSize="28dp"
         android:typeface="monospace"
+        android:id="@+id/place"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.805"/>
+        app:layout_constraintVertical_bias="0.8"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="커피와 김밥 등을 즐길 수 있다."
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
         android:textColor="#000000"
-        android:textSize="21dp"
+        android:textSize="18dp"
         android:typeface="monospace"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/place"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.87"/>
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <ImageButton
         android:id="@+id/school_map"
         android:onClick="clickedToSchoolMap"
         android:src="@drawable/home"
         android:layout_width="64dp"
-        android:layout_height="48dp"
+        android:layout_height="45dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.975"/>
+        android:layout_marginBottom="15dp"/>
 
     <ImageButton
         android:id="@+id/down1"
         android:onClick="clickedToSujung01Ele"
         android:src="@drawable/down"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.67"/>
+        app:layout_constraintBottom_toTopOf="@id/e"/>
 
     <ImageButton
         android:id="@+id/left1"
         android:onClick="clickedToSujung01Print"
         android:src="@drawable/up"
         android:layout_width="80dp"
-        android:layout_height="25dp"
+        android:layout_height="20dp"
         android:background="@android:color/transparent"
         android:scaleType="fitCenter"
         app:layout_constraintTop_toTopOf="parent"
