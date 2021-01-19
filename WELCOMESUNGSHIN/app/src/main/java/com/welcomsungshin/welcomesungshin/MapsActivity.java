@@ -49,8 +49,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     LocationManager locationManager;
     RelativeLayout boxMap;
 
-    double mLatitude = 37.591254;
-    double mLongitude = 127.021978;
+    //double mLatitude = 37.591254;
+    //double mLongitude = 127.021978;
+    double mLatitude, mLongitude;
 
 
     @Override
@@ -127,8 +128,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             //나의 위치를 한번만 가져오기 위해
             locationManager.removeUpdates(locationListener);
 
-            mLatitude = location.getLatitude();
-            mLongitude = location.getLongitude();
+            mLatitude = location.getLatitude();     //현재위치
+            mLongitude = location.getLongitude();      //현재위치
 
             SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
             mapFragment.getMapAsync(MapsActivity.this);
@@ -160,12 +161,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         return resizedBitmap;
     }
 
+    public void myPosition(View view) {
+        LatLng po = new LatLng(mLatitude , mLongitude);
+        Marker My = mMap.addMarker(new MarkerOptions().position(po));
+    }
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         requestMyLocation();
 
-        LatLng po = new LatLng(mLatitude , mLongitude);
+
+
+        //LatLng po = new LatLng(mLatitude , mLongitude);
         LatLng street = new LatLng(37.591437, 127.019302);
         LatLng store[] = new LatLng[20];
         store[0] = new LatLng(37.592244, 127.018020);
@@ -186,7 +194,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         store[15] = new LatLng(37.5906743, 127.0203041);
         store[16] = new LatLng(37.5908601, 127.0192629);
 
-        Marker My = mMap.addMarker(new MarkerOptions().position(po));
+        //Marker My = mMap.addMarker(new MarkerOptions().position(po));
 
         Marker Miozio = mMap.addMarker(new MarkerOptions().position(store[0])
                 .title("쵸이양식")
@@ -265,14 +273,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         boxMap.setVisibility(View.VISIBLE);
     }
 
+
+
+
     public boolean onMarkerClick(Marker marker) {
 
-        LatLng uni = new LatLng(37.591254, 127.021978);
+        LatLng uni = new LatLng(mLatitude, mLongitude);
 
-        polylines.add(this.mMap.addPolyline(new PolylineOptions().add(marker.getPosition(), uni).width(5).color(Color.RED)));
+        //polylines.add(this.mMap.addPolyline(new PolylineOptions().add(marker.getPosition(), uni).width(5).color(Color.RED)));
 
         return false;
     }
+
 
     public int i;
     public final CharSequence[] items = { "쵸이양식", "인도이웃", "윤휘식당", "투고샐러드", "쓰리로보스", "쎄오쎄오", "그릭데이", "아리랑", "본크레페",
@@ -368,7 +380,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng positionC = new LatLng(latC[i], lngC[i]);
         LatLng positionD = new LatLng(latD[i], lngD[i]);
         LatLng positionE = new LatLng(latE[i], lngE[i]);
-        LatLng positionF = new LatLng(mLatitude, mLongitude);
+        LatLng positionF = new LatLng(37.591254, 127.021978);   //성신여대
 
         polylines.add(this.mMap.addPolyline(new PolylineOptions().add(positionA,positionE).add(positionE,positionD).add(positionD,positionC).add(positionC,positionB).add(positionB,positionF).width(5).color(Color.BLUE)));
     }
